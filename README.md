@@ -37,3 +37,9 @@ node genJenkinsfile.js name-of-the-new-service
 ```
 
 Now that you have the new service's Jenkinsfile, simply fork this repo and add it.  Next, create a job on the jenkins server, use a pipeline job and be sure to click "this job is parameterized".  Configure the pipeline to point to the new fork with path to the new Jenkinsfile.  Run the job and run like ...
+
+
+## License
+The code in this repository is covered by the included license. If you run this code, it may call on the OpenFin RVM or OpenFin Runtime, which are subject to OpenFin's [Developer License](https://openfin.co/developer-agreement/). If you have questions, please contact support@openfin.co
+
+
