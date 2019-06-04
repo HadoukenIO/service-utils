@@ -1,4 +1,4 @@
-# desktop-services
+# Hadouken Service Utils
 all things common across desktop services - build/deploy utils, etc.
 
 ## what do we have here exactly?
@@ -38,13 +38,26 @@ node genJenkinsfile.js name-of-the-new-service
 
 Now that you have the new service's Jenkinsfile, simply fork this repo and add it.  Next, create a job on the jenkins server, use a pipeline job and be sure to click "this job is parameterized".  Configure the pipeline to point to the new fork with path to the new Jenkinsfile.  Run the job and run like ...
 
+## Contributing
+
+1. Fork it (<https://github.com/HadoukenIO/service-utils/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Read our [contribution guidelines](.github/CONTRIBUTING.md) and [Community Code of Conduct](https://www.finos.org/code-of-conduct)
+4. Commit your changes (`git commit -am 'Add some fooBar'`)
+5. Push to the branch (`git push origin feature/fooBar`)
+6. Create a new Pull Request
 
 ## License
-The code in this repository is covered by the included license.
+The code in this repository is distributed under the Apache License, Version 2.0.
 
 However, if you run this code, it may call on the OpenFin RVM or OpenFin Runtime, which are covered by OpenFin's Developer, Community, and Enterprise licenses. You can learn more about OpenFin licensing at the links listed below or just email us at support@openfin.co with questions.
 
+Copyright 2019 OpenFin
+
+SPDX-License-Identifier: Apache-2.0
+
 https://openfin.co/developer-agreement/
+
 https://openfin.co/licensing/
 
 
